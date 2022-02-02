@@ -39,6 +39,7 @@ public class HelloApplication extends Application {
         }
         System.out.println(charCounter);
 
+        /*
         CategoryAxis x=new CategoryAxis();
         NumberAxis y=new NumberAxis();
         x.setLabel("Years");
@@ -64,6 +65,8 @@ public class HelloApplication extends Application {
         Scene scene2=new Scene(bpane,800,500);
         stage.setScene(scene2);
         stage.show();
+
+         */
 
     }
 }
