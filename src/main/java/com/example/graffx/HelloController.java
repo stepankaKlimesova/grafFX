@@ -17,6 +17,6 @@ public class HelloController {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open Resource File");
         File file = fileChooser.showOpenDialog(window);
-        System.out.println(file);
-        }
+        System.out.println(ConvertFile.read(file));
+    }
 }
